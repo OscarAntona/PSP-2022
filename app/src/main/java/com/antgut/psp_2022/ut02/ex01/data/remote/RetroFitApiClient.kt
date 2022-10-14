@@ -20,7 +20,7 @@ class RetroFitApiClient {
             .build()
     }
 
-    private fun buildApiEndPoints(): ApiEndPoint{
+    private fun buildApiEndPoints(): ApiEndPoint {
         return buildClient().create(ApiEndPoint::class.java)
     }
 
